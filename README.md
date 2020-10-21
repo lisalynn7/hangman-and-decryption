@@ -6,7 +6,9 @@ The game begins with a greeting after prompting for the user's name. After a bri
 If yes, the Hangman function is called and the game begins.
 
 Next, the program randomly selects one word from this list: words = [“WHDSPQZ”, “XHO”, “TTDBFRT”, “QQJYF”, “ENQD”, “DNPK”, “CNTR”, “EHWHOD”, “TSVMOHOF”, “XNOCFQGTM”]
-where the user is allowed 10 attempts to guess the word. The word is decoded *only* if the user guesses correctly before attempts are exhausted.
+where the user is allowed 10 attempts to guess the word. 
+
+After each turn, the user is presented with a list of their remaining "lives", a running list of the letters they have already guessed, and the secret hangman word (initially marked by dashes). With each correct guess, the corresponding dash is replaced with that letter. If the user guesses the entire word correctly *before* all attempts are exhaused, the word will be decoded and revealed to the user. If not, the user loses the game.
 
 **Special Note**: This version of the program assumes only alphabetical input in the guessing portion of the game's implementation. Non-alphabetical input counts against the user's remaning guesses.
 - - - - - - - - - - - - - 
