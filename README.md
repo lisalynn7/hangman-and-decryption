@@ -23,7 +23,7 @@ I designed the flowchart below for the decryption mechanism and implemented it i
 
 ![flowchart](link here)
 - - - - - - 
-## Motivation :hatching_chick:
+## Motivation :skull:
 This project was created for INST126: Introduction to Programming for Information Science (Fall 2020)
 
 ## Authors
