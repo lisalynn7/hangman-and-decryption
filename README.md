@@ -21,7 +21,7 @@ The original words were previously **encrypted** using the logic from the follow
 
 I designed the flowchart below for the decryption mechanism and implemented it in the **decrypt()** function. The function takes the game's generated word from the list (ciphertext) as the parameter. It then returns the encoded message (plaintext) if the user wins the game. 
 
-![flowchart](link here)
+![flowchart](https://github.com/lisalynn7/hangman-and-decryption/blob/main/decode.jpg)
 - - - - - - 
 ## Motivation :skull:
 This project was created for INST126: Introduction to Programming for Information Science (Fall 2020)
