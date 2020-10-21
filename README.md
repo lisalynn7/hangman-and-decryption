@@ -14,11 +14,13 @@ where the user is allowed 10 attempts to guess the word. The word is decoded *on
 
 ![flowchart](https://github.com/lisalynn7/hangman-and-decryption/blob/main/hangmangame.png)
 - - - - - - - - - - - - - 
-## Part 2: Implementation to decode the guessed word
+## Part 2: Behind the Hangman encryption
 The original words were previously **encrypted** using the logic from the following Flowchart: 
 
 ![flowchart](https://github.com/lisalynn7/hangman-and-decryption/blob/main/encode.png)
 
+- - - - - - - - - - - 
+## Part 2.1: Implementation to deocde the guessed word
 I designed the flowchart below for the decryption mechanism and implemented it in the **decrypt()** function. The function takes the game's generated word from the list (ciphertext) as the parameter. It then returns the encoded message (plaintext) if the user wins the game. 
 
 ![flowchart](https://github.com/lisalynn7/hangman-and-decryption/blob/main/decode.jpg)
