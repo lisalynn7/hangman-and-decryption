@@ -12,7 +12,7 @@ where the user is allowed 10 attempts to guess the word. The word is decoded *on
 - - - - - - - - - - - - - 
 ## Part 1.2: Flowchart for the Hangman Game
 
-![flowchart](link here)
+![flowchart](https://github.com/lisalynn7/hangman-and-decryption/blob/main/hangmangame.png)
 - - - - - - - - - - - - - 
 ## Part 2: Implementation to decode the guessed word
 The original words were previously **encrypted** using the logic from the following Flowchart: 
