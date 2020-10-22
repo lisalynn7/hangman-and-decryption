@@ -11,6 +11,8 @@ where the user is allowed 10 attempts to guess the word.
 After each turn, the user is presented with a list of their remaining "lives", a running list of the letters they have already guessed, and the secret hangman word (initially marked by dashes). With each correct guess, the corresponding dash is replaced with that letter. If the user guesses the entire word correctly *before* all attempts are exhaused, the word will be decoded and revealed to the user. If not, the user loses the game.
 
 **Special Note**: This version of the program assumes only alphabetical input in the guessing portion of the game's implementation. Non-alphabetical input counts against the user's remaning guesses.
+
+**10/22/20: Update**: This new release of the project has an additional functionality. The game will now recognize if a user has made a repeat guess. If so, the game will tell the user they've already guessed that letter, and it won't count against their total attempts/lives.
 - - - - - - - - - - - - - 
 ## Part 1.2: Flowchart for the Hangman Game
 
